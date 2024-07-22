@@ -1,0 +1,44 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hai","Hay","Hi", "Hello", "Halo", "Selamat pagi", "Selamat siang", "Selamat sore"],
+      "responses": ["Halo, silahkan perkenalkan nama lengkap anda"]
+    },
+    {
+      "tag": "introduction",
+      "patterns": ["Nama", "saya", "perkenalkan"],
+      "responses": ["Halo, senang bertemu dengan anda. posisi apa yang ingin anda lamar"]
+    },
+    {
+      "tag": "position",
+      "patterns": ["saya ingin", "posisi", "sebagai", "posisi saya", "web developer", "machine learning", "HR", "Teller"],
+      "responses": ["baik, bisa ceritakan pengalaman kerja anda (dalam tahun)"]
+    },
+    {
+      "tag": "experience",
+      "patterns": ["belum pernah bekerja", "belum", "baru lulus", "pengalaman saya", "saya pernah", "bekerja"],
+      "responses": ["baik, keahlian Utama anda?"]
+    },
+    {
+      "tag": "skills",
+      "patterns": ["machine learning", "python", "keahlian saya", "keahlian", "saya mempunyai keahlian"],
+      "responses": ["apakah anda bersedia bekerja secara remote? (ya/tidak)"]
+    },
+    {
+      "tag": "remote_work",
+      "patterns": ["ya", "tidak"],
+      "responses": ["baik, adakah sertifikat pendukung?"]
+    },
+    {
+      "tag": "certification",
+      "patterns": ["ada", "tidak ada", "iya ada", "sertifikat", "sertifikat pendukung"],
+      "responses": ["silahkan masukkan nomor kontak atau email yang dapat kami hubungi dengan format membalas 'nomor saya/email saya'"]
+    },
+    {
+      "tag": "contact_information",
+      "patterns": ["nomor saya", "email saya", "email"],
+      "responses": ["Terimakasih sudah menggunakan layanan kami, akan kami informasikan lebih lanjut nanti"]
+    }
+  ]
+}
